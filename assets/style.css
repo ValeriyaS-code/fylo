@@ -1,0 +1,19 @@
+body {
+    margin: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation img {
+    width: 150px;
+    height: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding-left: 40px;
+    color: #585989;
+}
