@@ -1,10 +1,17 @@
-body {
-    margin: 50px;
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: 'Raleway', sans-serif;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
+    margin: 25px 50px;
 }
 
 .navigation img {
@@ -15,5 +22,91 @@ body {
 .navigation a {
     text-decoration: none;
     padding-left: 40px;
-    color: #585989;
+    color: 	#070439;
+}
+
+.get-started-section {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    margin-top: 45px;
+    color: 	#070439;
+    margin: 50px;
+}
+
+.get-started-image {
+    width: 635px;
+    height: 425px;
+}
+
+.get-started-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.get-started-section p {
+    font-size: 19px;
+}
+
+.get-started-section input {
+    padding: 10px;
+    width: 290px;
+    height: 12px;
+    border: 1px solid #bfbfbf;
+}
+
+::placeholder {
+    color: 	#bfbfbf;
+}
+
+.get-started-button {
+    width: 240px;
+    height: 34px;
+    background-color: #3065f8;
+    border: 1px solid #3065f8;
+    color: 	#f6f6fe;
+}
+
+/* Footer styling */
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: #ffffff;
+    padding: 90px 40px 40px 40px;
+}
+
+.footer-logo {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(28%) hue-rotate(13deg) contrast(99%);
+    width: 100px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 12px;
+}
+
+.icon {
+    padding-right: 8px;
+    width: 10px;
+    height: 10px;
+}
+.info-one p {
+    display: inline-block;
+}
+
+.contact-info a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.social-links i {
+    border-radius: 25px;
+    border: 1px #ffffff solid;
+    padding: 8px;
+    margin-left: 10px;
 }
